@@ -5,6 +5,7 @@ import Section from './section/Section';
 import Notification from './notification/Notification';
 import { useState } from 'react';
 
+
 function App() {
   const [goodCounter, setGoodCounter] = useState(0);
   const [neutralCounter, setNeutralCounter] = useState(0);
